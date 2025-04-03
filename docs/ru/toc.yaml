@@ -1,5 +1,17 @@
-title: Шаблон проекта документации
+title: Барная карта
 href: index.yaml
 items: 
   - name: Главная
     href: about.md
+  - name: Коктейли на джине
+    href: ./gin/README.yaml
+    items:
+      - name: Джин тоник
+        href: ./gin/gin-tonic.yaml
+  - name: Коктейли на роме
+    href: ./rum/README.yaml
+  - name: Коктейли на вермуте
+    href: ./wermut/README.yaml
+  - name: Коктейли на виски
+    href: ./whiskey/README.yaml
+    

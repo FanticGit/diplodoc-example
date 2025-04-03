@@ -1,4 +1,38 @@
-title: Шаблон документации
-links:
-  - title: О проекте
-    href: about.md
+fullScreen: true
+
+blocks:
+
+### Header
+- type: header-block # Тип блока 
+  theme: 'dark' # Оставить темную тему, чтобы всегда был белый текст
+  verticalOffset: 'xl' # Разме
+  width: 'l' # Длина текста
+  background:
+    image: './images/header-background.png' # Картинка фона
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  animated: false # Анимации
+  children: 
+
+    - type: basic-card # Тип блока 
+      title: Коктейли на джине # Заголовок
+      url: ./gin/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Коктейли на роме # Заголовок
+      url: ./rum/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Коктейли на вермуте # Заголовок
+      url: ./wermut/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Коктейли на виски # Заголовок
+      url: ./whiskey/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab

@@ -1,0 +1,59 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Коктейли на джине
+  description: Джин — это крепкий алкогольный напиток, который изготавливается путём перегонки зернового спирта с добавлением растительных компонентов, таких как можжевельник, кориандр, корень дягиля и другие травы. Обладает характерным вкусом с нотами можжевельника и слегка горьковатым ароматом.
+  width: l
+  verticalOffset: l
+  offset: 'default'
+  buttons:
+    - text: "Button\r"
+      theme: action
+      url: ../index.yaml
+  image: '../images/header-background-gin.png'
+  imageSize: m
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  animated: false # Анимации
+  children: 
+
+    - type: basic-card # Тип блока 
+      title: Назад # Заголовок
+      url: ../index.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  animated: false # Анимации
+  children: 
+
+    - type: basic-card # Тип блока 
+      title: Джин-тоник # Заголовок
+      text: Это бессмертный микс джина и тоника, который подается, наверное, в каждом баре Земли. Травяной и немного горький коктейль прекрасно освежает и тонизирует # Описание
+      links: # Ссылка
+        - text: Перейти # Название ссылки
+          url:  ./gin-tonic.yaml # Редирект по клику на ссылку 
+          arrow: true # Добовляет стрелку (>) у ссылки
+          theme: normal # Тема (тип) кнопки
+      url: ./gin-tonic.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Том коллинз # Заголовок
+      text: Классический коктейль, который был создан в Лондоне в конце 19 века. Он состоит из джина, свежевыжатого лимонного сока, сахарного сиропа и газированной воды # Описание
+      links: # Ссылка
+        - text: Перейти # Название ссылки
+          url:  ./tom-collins.yaml # Редирект по клику на ссылку 
+          arrow: true # Добовляет стрелку (>) у ссылки
+          theme: normal # Тема (тип) кнопки
+      url: ./tom-collins.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
