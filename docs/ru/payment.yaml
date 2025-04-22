@@ -1,0 +1,38 @@
+fullScreen: true
+
+blocks:
+
+- type: header-block
+  title: Оплата
+  description: Спасибо за донат :)
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./index.yaml
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: './images/qrcod-yandex.png'
+    type: image-card
+    direction: 'reverse'
+    border: 'shadow'
+    title: Yandex 
+    text: Отсканируйте в мобильном приложении своего банка
+
+  - image: './images/qrcod-alfa.png'
+    type: image-card
+    direction: 'reverse'
+    border: 'shadow'
+    title: Alfa 
+    text: Отсканируйте в мобильном приложении своего банка
+
+  - image: './images/qrcod-sber.png'
+    type: image-card
+    direction: 'reverse'
+    border: 'shadow'
+    title: Sber
+    text: Отсканируйте в мобильном приложении своего банка

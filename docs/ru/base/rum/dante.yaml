@@ -1,0 +1,41 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Данте
+  description: Слабоалкогольный сливочно-клубничный и тропический коктейль на основе рома
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 180 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/el-presidente.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Коктейль получил своё название в честь Данте — главного героя серии видеоигр Devil May Cry. Этот отважный наёмник посвятил свою жизнь борьбе с демонами."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Светлый ром 50 мл​</p> </li> <li> <p>Сливки 60 мл​</p> </li> <li> <p>Клубничный сироп 30 мл​</p> </li> <li> <p>Ванильный сироп 5 мл​</p> </li> <li> <p>Клубника для украшения</p> </li></ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>Перелей все ингредиенты в шейкер, хорошо взболтайте со льдом​</p> </li> <li> <p>Перелей через стрейнер в охлажденный бокал со льдом​</p> </li> <li> <p>Клубника и шоколад для украшения​</p> </li></ul> '
+      listStyle: disk

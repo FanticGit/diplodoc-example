@@ -1,0 +1,42 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Джангл бёрд​
+  description: Тропический коктейль с ярким вкусом ананаса, уравновешенным пряностью рома и биттера, создающий экзотическое ощущение джунглей в каждом глотке
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 200 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/jungle-bird.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Коктейль изобрел малазийский менеджер по напиткам Джеффри Онг в 1973 году в баре Aviary отеля Hilton в Куала-Лумпуре. Название напитка было навеяно красочными тропическими птицами, обитающими в одноимённом вольере, который виден из бара."
+  additionalInfo: "Интересные факты: Малайзийская газета The Star назвала Jungle Bird «единственным всемирно признанным классическим коктейлем Малайзии» в некрологе после смерти изобретателя Джеффри Онга в 2019 году."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Тёмный ром 45 мл​</p> </li> <li> <p>Кампари 20 мл​</p> </li> <li> <p>Ананасовый сок 45 мл​</p> </li> <li> <p>Сок лайма 15 мл</p> </li> <li> <p>Сахарный сироп 15 мл​</p> </li> <li> <p>или Лаймовый кордиал 15 мл</p> </li> </ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>Перелей все ингредиенты в шейкер, хорошо взболтайте со льдом​</p> </li> <li> <p>Перелей через стрейнер в охлажденный бокал​</p> </li> <li> <p>Лайм или ананас для украшения​</p> </li></ul> '
+      listStyle: disk

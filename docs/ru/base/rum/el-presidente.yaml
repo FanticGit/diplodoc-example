@@ -1,0 +1,42 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Эль Президенте​
+  description: Эль Президенте - это изысканный коктейль с роскошным кисло-сладким вкусом, который по праву считается напитком для избранных
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 200 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/el-presidente.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Коктейль был создан в честь президента Кубы Марио Гарсиа Менокала, который особенно любил этот напиток. Название “El Presidente” (Президент) отражает высокий статус как самого напитка, так и его почитателя."
+  additionalInfo: "Интересные факты: Эль Президенте - один из тех коктейлей, которые требуют точного соблюдения пропорций для достижения идеального баланса вкуса."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Белый ром 50 мл​</p> </li> <li> <p>Белый вермут 30 мл</p> </li> <li> <p>Трипл сек 20 мл</p> </li> <li> <p>Ангостура оранж 1 деш</p> </li> <li> <p>Гренадин 2 деша​</p> </li> </ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>Перелей все ингредиенты в шейкер, хорошо взболтайте со льдом​</p> </li> <li> <p>Перелей через стрейнер в охлажденный бокал​</p> </li> </ul> '
+      listStyle: disk

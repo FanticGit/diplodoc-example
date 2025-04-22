@@ -4,14 +4,88 @@ items:
   - name: Главная
     href: about.md
   - name: Коктейли на джине
-    href: ./gin/README.yaml
+    href: ./base/gin/README.yaml
     items:
       - name: Джин тоник
-        href: ./gin/gin-tonic.yaml
+        href: ./base/gin/gin-tonic.yaml
+      - name: Tom Collins
+        href: ./base/gin/tom-collins.yaml
+      - name: Negroni
+        href: ./base/gin/negroni.yaml
+      - name: Clover Club
+        href: ./base/gin/clover-club.yaml
+      - name: White Lady
+        href: ./base/gin/white-lady.yaml
   - name: Коктейли на роме
-    href: ./rum/README.yaml
+    href: ./base/rum/README.yaml
+    items:
+      - name: Daiquiri
+        href: ./base/rum/daiquiri.yaml
+      - name: El Presidente
+        href: ./base/rum/el-presidente.yaml
+      - name: Cuba Libre
+        href: ./base/rum/cuba-libre.yaml
+      - name: Anejo Highball
+        href: ./base/rum/anejo-highball.yaml
+      - name: Dark ’n’ Stormy
+        href: ./base/rum/dark-stormy.yaml
+      - name: Knickerbocker
+        href: ./base/rum/knickerbocker.yaml
+      - name: Jungle Bird
+        href: ./base/rum/jungle-bird.yaml
+      - name: Dante
+        href: ./base/rum/dante.yaml
+      - name: Piña Colada
+        href: ./base/rum/pina-colada.yaml
   - name: Коктейли на вермуте
-    href: ./wermut/README.yaml
+    href: ./base/wermut/README.yaml
+    items:
+      - name: Wermut and tonic
+        href: ./base/wermut/wermut-and-tonic.yaml
+      - name: Americano
+        href: ./base/wermut/americano.yaml
   - name: Коктейли на виски
-    href: ./whiskey/README.yaml
-    
+    href: ./base/whiskey/README.yaml
+    items:
+      - name: Irish Coffee
+        href: ./base/whiskey/irish-coffee.yaml
+      - name: Manhattan
+        href: ./base/whiskey/manhattan.yaml
+      - name: Rob Roy
+        href: ./base/whiskey/rob-roy.yaml
+      - name: Old Fashioned
+        href: ./base/whiskey/old-fashioned.yaml
+      - name: Whisky Sour
+        href: ./base/whiskey/whisky-sour.yaml
+      - name: New York Sour
+        href: ./base/whiskey/new-york-sour.yaml
+      - name: Boulevardier
+        href: ./base/whiskey/boulevardier.yaml
+  - name: Коктейли на водке
+    href: ./base/vodka/README.yaml
+    items:
+      - name: Белый русский​
+        href: ./base/vodka/white-russian.yaml
+      - name: Chi Chi
+        href: ./base/vodka/chi-chi.yaml
+  - name: Другие
+    href: ./base/other/README.yaml
+    items:
+      - name: Lemon pie
+        href: ./base/other/lemon-pie.yaml
+      - name: Apple Crush 
+        href: ./base/other/apple-crush.yaml
+  - name: Коктейли на джине
+    href: ./taste/berry/README.yaml
+  - name: Коктейли на роме
+    href: ./taste/bitter/README.yaml
+  - name: Коктейли на вермуте
+    href: ./taste/dry/README.yaml
+  - name: Коктейли на виски
+    href: ./taste/fruit/README.yaml
+  - name: Коктейли на виски
+    href: ./taste/sour/README.yaml
+  - name: Коктейли на виски
+    href: ./taste/sweet/README.yaml
+  - name: payment
+    href: ./payment.yaml

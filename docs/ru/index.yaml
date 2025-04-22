@@ -9,30 +9,86 @@ blocks:
   width: 'l' # Длина текста
   background:
     image: './images/header-background.png' # Картинка фона
+    fullscreen: true
+    fullWidth: true
+    fullWidthMedia: true
+    height: 200
+
+
 
 ### Card Layout 1
 
 - type: card-layout-block # Тип блока 
+  title: База # Заголовок
   resetPaddings: false
   animated: false # Анимации
   children: 
 
     - type: basic-card # Тип блока 
       title: Коктейли на джине # Заголовок
-      url: ./gin/README.yaml # Редирект по клику на карточку
+      url: ./base/gin/README.yaml # Редирект по клику на карточку
       urlTitle: Opens in a new tab
 
     - type: basic-card # Тип блока 
       title: Коктейли на роме # Заголовок
-      url: ./rum/README.yaml # Редирект по клику на карточку
+      url: ./base/rum/README.yaml # Редирект по клику на карточку
       urlTitle: Opens in a new tab
 
     - type: basic-card # Тип блока 
       title: Коктейли на вермуте # Заголовок
-      url: ./wermut/README.yaml # Редирект по клику на карточку
+      url: ./base/wermut/README.yaml # Редирект по клику на карточку
       urlTitle: Opens in a new tab
 
     - type: basic-card # Тип блока 
       title: Коктейли на виски # Заголовок
-      url: ./whiskey/README.yaml # Редирект по клику на карточку
+      url: ./base/whiskey/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Коктейли на водке # Заголовок
+      url: ./base/vodka/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Разное # Заголовок
+      url: ./base/other/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  title: Вкус # Заголовок
+  resetPaddings: false
+  animated: false # Анимации
+  children: 
+
+    - type: basic-card # Тип блока 
+      title: Кислые # Заголовок
+      #url: ./taste/sour/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Горькие # Заголовок
+      #url: ./taste/bitter/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Сладкие # Заголовок
+      #url: ./taste/sweet/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Сухие # Заголовок
+      #url: ./taste/dry/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Фруктовые # Заголовок
+      #url: ./taste/fruit/README.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Ягодные # Заголовок
+      #url: ./taste/berry/README.yaml # Редирект по клику на карточку
       urlTitle: Opens in a new tab

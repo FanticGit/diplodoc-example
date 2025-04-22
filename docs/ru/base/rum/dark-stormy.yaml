@@ -1,0 +1,42 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Тьма и буря​
+  description: Dark 'N' Stormy — освежающий коктейль с ярким вкусом пряного рома, имбирного пива и легкой цитрусовой кислинки
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 300 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/dark-stormy.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Коктейль придумали братья Гослинг в 1920-х годах на Бермудских островах. Тьму в названии символизирует тёмный ром, а бурю — сильногазированный имбирный эль"
+  additionalInfo: "Интересные факты: в США название «Dark 'N' Stormy» является товарным знаком компании братьев Гослинг, и официально так можно назвать только коктейль, смешанный из их ингредиентов."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Темный ром 50 мл</p> </li> <li> <p>Имбирное пиво 100 мл​</p> </li>  <li> <p>Лайм для украшения​</p> </li></ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>Наполни хайбол кубиками льда доверху</p> </li> <li> <p>Налей в стакан ром и долей имбирное пиво доверху и аккуратно размешай коктейльной ложкой​</p> </li> <li> <p>Укрась лаймом</p> </li></ul> '
+      listStyle: disk

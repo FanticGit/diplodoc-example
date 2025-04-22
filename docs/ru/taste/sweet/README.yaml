@@ -1,0 +1,18 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Коктейли на джине
+  description: Джин — это крепкий алкогольный напиток, который изготавливается путём перегонки зернового спирта с добавлением растительных компонентов, таких как можжевельник, кориандр, корень дягиля и другие травы. Обладает характерным вкусом с нотами можжевельника и слегка горьковатым ароматом.
+  width: l
+  verticalOffset: l
+  offset: 'default'
+  buttons:
+    - text: "Button\r"
+      theme: action
+      url: ../../index.yaml
+  image: '../../images/header-background-gin.png'
+  imageSize: m

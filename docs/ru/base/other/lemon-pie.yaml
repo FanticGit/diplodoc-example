@@ -1,0 +1,41 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Лимонный пирог​
+  description: Нежный и легкий коктейль с характерной цитрусовой кислинкой, сладковатым яичным вкусом и ванильными нотками
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 110 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/lemon-pie.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Адаптирован мной рецепт с ютуб-канала «Едим.ТВ». Идеальный коктейль с яичным ликёром Адвокат, ванильным сиропом и лимоном. Сладкий, нежный, лёгкий — для девушек и не только."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Яичный ликер 60 мл​</p> </li> <li> <p>Лимончелло - 20 мл​</p> </li> <li> <p>Лимонный сок 15 и 5 мл​</p> </li><li> <p>Ванильный сироп 10 мл​</p> </li><li> <p>Сахарный сироп 5 мл​</p> </li><li> <p>Белок яйца 20 мл​</p> </li></ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>В шейкер яичный ликер, лимонный сок 15 мл, ванильный сироп 10 мл и шейкуем​</p> </li> <li> <p>В стакан для смешивания белок, лимончелло, сахарный сироп, лимонный сок и размешать​</p> </li> <li> <p>Перелей содержимое шейкера в охлажденный бокал, а сверху вылей пену​</p> </li></ul> '
+      listStyle: disk

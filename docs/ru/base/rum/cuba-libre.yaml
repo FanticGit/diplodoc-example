@@ -1,0 +1,42 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Куба либре
+  description: Освежающий коктейль с характерным сочетанием сладкого рома, горьковатого вкуса колы и легкой цитрусовой ноты от лайма
+  width: s
+  verticalOffset: 0
+  offset: default
+  buttons:
+    - text: Назад
+      theme: action
+      url: ./README.yaml
+    - text: 150 рублей
+      theme: normal
+      url: ./../../payment.yaml
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  children:
+  - image: '../../images/cuba-libre.jpg'
+    type: image-card
+
+### Questions Block
+
+- type: questions-block
+  title: История коктейля
+  text: "Легенда коктейля гласит, что «Куба Либре» был создан в гаванском баре The American Bar, где часто собирались американские военные. Капитан армии США по имени Рассел заказал микс из кубинского рома, лаймового сока и кока-колы. Когда его спросили название напитка, он произнес тост «Por Cuba libre!» («За свободную Кубу!»), который и стал именем коктейля."
+  additionalInfo: "Интересные факты: Сухой закон в США способствовал распространению коктейля, так как кока-кола отлично маскировала вкус некачественного рома."
+  items:
+    - title: Ингредиенты
+      text: '<p></p> <ul> <li> <p>Белый/золотой ром 50 мл</p> </li> <li> <p>Сок лайма 10 мл</p> </li> <li> <p>Кола 150 мл​</p> </li> <li> <p>Кусочек лайма для украшения</p> </ul> '
+      listStyle: disk
+    - title: Рецепт
+      text: '<p></p> <ul> <li> <p>Наполни хайбол кубиками льда доверху​</p> </li> <li> <p>Налей ром и сок лайма​</p> </li> <li> <p>Долей колу доверху и аккуратно размешай коктейльной ложкой​</p> </li><li> <p>Укрась лаймом</p> </li></ul> '
+      listStyle: disk

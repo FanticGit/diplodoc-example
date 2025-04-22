@@ -1,0 +1,37 @@
+fullScreen: true
+
+blocks:
+
+### Header
+
+- type: header-block
+  title: Коктейли 
+  width: l
+  verticalOffset: l
+  offset: 'default'
+  buttons:
+    - text: "Назад"
+      theme: action
+      url: ../../index.yaml
+  image: '../../images/header-background-gin.png'
+  imageSize: m
+
+
+### Card Layout 1
+
+- type: card-layout-block # Тип блока 
+  resetPaddings: false
+  animated: false # Анимации
+  children: 
+
+    - type: basic-card # Тип блока 
+      title: Лимонный пирог​ # Заголовок
+      text: Нежный и легкий коктейль с характерной цитрусовой кислинкой, сладковатым яичным вкусом и ванильными нотками # Описание
+      url: ./lemon-pie.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
+
+    - type: basic-card # Тип блока 
+      title: Яблочный crush # Заголовок
+      text: Осенний коктейль с ярким яблочным вкусом, в котором сладость яблочного сиропа и пряности специй гармонично сочетаются с терпкостью кальвадоса и свежестью лимона # Описание
+      url: ./apple-crush.yaml # Редирект по клику на карточку
+      urlTitle: Opens in a new tab
