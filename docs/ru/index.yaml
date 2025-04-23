@@ -2,20 +2,6 @@ fullScreen: true
 
 blocks:
 
-### Header
-- type: header-block # Тип блока 
-  theme: 'dark' # Оставить темную тему, чтобы всегда был белый текст
-  verticalOffset: 'xl' # Разме
-  width: 'l' # Длина текста
-  background:
-    image: './images/header-background.png' # Картинка фона
-    fullscreen: true
-    fullWidth: true
-    fullWidthMedia: true
-    height: 200
-
-
-
 ### Card Layout 1
 
 - type: card-layout-block # Тип блока 
